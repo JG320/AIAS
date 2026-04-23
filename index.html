@@ -593,20 +593,6 @@ function downloadAsWord(idx) {
     </div>
   </div>
 
-
-  <!-- ════ GENERATION TIMER OVERLAY ════ -->
-  <div id="gen-timer-overlay" class="gen-timer-overlay">
-    <div class="gen-timer-card">
-      <div class="gen-timer-spinner-wrap">
-        <div class="gen-timer-ring"></div>
-        <div class="gen-timer-inner-ring"></div>
-      </div>
-      <div class="gen-timer-sec" id="gen-timer-sec">0.0s</div>
-      <div class="gen-timer-label" id="gen-timer-label">Generating assignment…</div>
-      <div class="gen-timer-sub">Claude is building your AI-integrated assignment</div>
-    </div>
-  </div>
-
 </body>
 </html>`;
 
@@ -1706,4 +1692,18 @@ function getElapsedSeconds() {
 
 renderApiKeyBanner(),renderAll(),renderTemplateGrid(),checkAdminAccess(),setTimeout(checkAdminAccess,200);
 </script>
+
+  <!-- ════ GENERATION TIMER OVERLAY ════ -->
+  <div id="gen-timer-overlay" class="gen-timer-overlay">
+    <div class="gen-timer-card">
+      <div class="gen-timer-spinner-wrap">
+        <div class="gen-timer-ring"></div>
+        <div class="gen-timer-inner-ring"></div>
+      </div>
+      <div class="gen-timer-sec" id="gen-timer-sec">0.0s</div>
+      <div class="gen-timer-label" id="gen-timer-label">Generating assignment…</div>
+      <div class="gen-timer-sub">Claude is building your AI-integrated assignment</div>
+    </div>
+  </div>
+
 </body></html>
